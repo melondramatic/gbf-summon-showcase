@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kanakama/precache-manifest.94203fc2672b88059d54b11e866eb28e.js"
+  "/gbf-summon-showcase/precache-manifest.a5d479ee15433da4b064cba8a8e59971.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/kanakama/index.html", {
+workbox.routing.registerNavigationRoute("/gbf-summon-showcase/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
