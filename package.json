@@ -2,7 +2,7 @@
   "name": "gbf-summon-showcase",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://melondramatic.github.io/kanakama",
+  "homepage": "http://melondramatic.github.io/gbf-summon-showcase",
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "@material-ui/styles": "^3.0.0-alpha.10",
