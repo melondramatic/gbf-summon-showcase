@@ -11,7 +11,7 @@ import DisplayView from './views/display-view';
 export default () => {
   return (
     <ThemeProvider theme={createMuiTheme(theme)}>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Route exact path={'/'} component={SelectionView} />
         <Route path={'/display'} component={DisplayView} />
         {renderFooter()}
