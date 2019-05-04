@@ -7,7 +7,7 @@ import waterSummons from './summons-water';
 import windSummons from './summons-wind';
 import ISummon from '../types/ISummon';
 
-export const ELEMENTS: Array<string> = ['fire','water','earth','wind','light','dark','misc','misc'];
+export const ELEMENTS: Array<string> = ['fire','water','earth','wind','light','dark','misc1','misc2'];
 export const SUMMONS: Array<Array<ISummon>> = [
   fireSummons,
   waterSummons,
