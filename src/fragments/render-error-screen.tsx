@@ -19,9 +19,7 @@ export default (message: string, routeProps?: RouteComponentProps, route?: strin
   const classes = useStyles();
   return (
     <div className={classes.errorContainer}>
-      <Typography className={classes.messageContainer} variant={'h5'}>
-        {message}
-      </Typography>
+      <Typography className={classes.messageContainer} variant={'h5'}>{message}</Typography>
       {!!routeProps && !!route && !!buttonCaption &&
         <Button
           color={'primary'}

@@ -48,12 +48,8 @@ export const displaySummons = (summons: Array<ReactElement>, query: ParsedQuery,
         </div>
         <div className={classes.infoContainer}>
           <div className={classes.playerInfoContainer}>
-            <Typography variant={'h5'}>
-              {`Player ID: ${query.pid || ''}`}
-            </Typography>
-            <Typography variant={'h5'}>
-              {`Player Name: ${query.pname || ''}`}
-            </Typography>
+            <Typography variant={'h5'}>{`Player ID: ${query.pid || ''}`}</Typography>
+            <Typography variant={'h5'}>{`Player Name: ${query.pname || ''}`}</Typography>
           </div>
           <div className={classes.buttonContainer}>
             <Button
@@ -99,12 +95,7 @@ export const generateSummons = (summons: IDisplaySummon[]) => {
       <div className={classes.summonContainer}>
         <img className={classes.image} src={summonUrl} />
         <div className={classes.summonInfoContainer}>
-          <Typography
-            style={uncapStyle}
-            variant={'h6'}
-          >
-            {uncapLevels[summon.uncap].name}
-          </Typography>
+          <Typography style={uncapStyle} variant={'h6'}>{uncapLevels[summon.uncap].name}</Typography>
           <Typography variant={'h6'}>{summon.name}</Typography>
         </div>
       </div>
