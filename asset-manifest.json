@@ -1,13 +1,13 @@
 {
   "main.css": "/gbf-summon-showcase/static/css/main.a8435028.chunk.css",
-  "main.js": "/gbf-summon-showcase/static/js/main.677b15b9.chunk.js",
-  "main.js.map": "/gbf-summon-showcase/static/js/main.677b15b9.chunk.js.map",
+  "main.js": "/gbf-summon-showcase/static/js/main.d6af062f.chunk.js",
+  "main.js.map": "/gbf-summon-showcase/static/js/main.d6af062f.chunk.js.map",
   "runtime~main.js": "/gbf-summon-showcase/static/js/runtime~main.ec9383b5.js",
   "runtime~main.js.map": "/gbf-summon-showcase/static/js/runtime~main.ec9383b5.js.map",
-  "static/js/2.cc9aa46c.chunk.js": "/gbf-summon-showcase/static/js/2.cc9aa46c.chunk.js",
-  "static/js/2.cc9aa46c.chunk.js.map": "/gbf-summon-showcase/static/js/2.cc9aa46c.chunk.js.map",
+  "static/js/2.1c235f66.chunk.js": "/gbf-summon-showcase/static/js/2.1c235f66.chunk.js",
+  "static/js/2.1c235f66.chunk.js.map": "/gbf-summon-showcase/static/js/2.1c235f66.chunk.js.map",
   "index.html": "/gbf-summon-showcase/index.html",
-  "precache-manifest.dbcea4868260734b64f2638521c2588e.js": "/gbf-summon-showcase/precache-manifest.dbcea4868260734b64f2638521c2588e.js",
+  "precache-manifest.02f3dac0b227cb6f0b939272bc9e53d5.js": "/gbf-summon-showcase/precache-manifest.02f3dac0b227cb6f0b939272bc9e53d5.js",
   "service-worker.js": "/gbf-summon-showcase/service-worker.js",
   "static/css/main.a8435028.chunk.css.map": "/gbf-summon-showcase/static/css/main.a8435028.chunk.css.map"
 }
