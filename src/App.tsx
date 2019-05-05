@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route } from 'react-router-dom';
 import ThemeProvider from '@material-ui/styles/ThemeProvider';
 import { createMuiTheme } from '@material-ui/core/'
 
@@ -11,11 +11,11 @@ import DisplayView from './views/display-view';
 export default () => {
   return (
     <ThemeProvider theme={createMuiTheme(theme)}>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Route exact path={'/'} component={SelectionView} />
         <Route path={'/display'} component={DisplayView} />
         {renderFooter()}
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   )
 }
